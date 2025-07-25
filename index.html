@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>File Organizer Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📁 File Organizer Tool</h1>
+
+    <input type="file" id="fileInput" multiple />
+    <button id="organizeBtn">Organize Files</button>
+    <button id="downloadBtn" disabled>Download ZIP</button>
+
+    <div id="organizedPreview"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.0/jszip.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
